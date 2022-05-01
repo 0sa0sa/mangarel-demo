@@ -1,7 +1,7 @@
 import { Command } from 'commander';
 import admin from 'firebase-admin';
 import fs from 'fs';
-import { parse } from 'csv-parse/sync';
+import { parse } from 'csv-parse/lib/sync';
 
 import { Publisher } from '../services/mangarel/models/publisher';
 import { collectionName } from '../services/mangarel/constants';
