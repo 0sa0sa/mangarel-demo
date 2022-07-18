@@ -7,6 +7,7 @@ export const feedCalendar = async (page: puppeteer.Page) => {
 
   const memos: FeedMemo[] = [];
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   for await (const _ of [0, 1]) {
     const items = await page.$$('.comicList .contIn .contR .spaceSp .block');
 
