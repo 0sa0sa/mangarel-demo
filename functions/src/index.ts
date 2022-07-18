@@ -13,7 +13,8 @@ import { sleep } from './utils/timer';
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
 
-const RAKUTEN_APP_ID = '1051841986607070591';
+// Insert /secrets/AppID
+const RAKUTEN_APP_ID = 'XXXXXXXXXXX';
 
 admin.initializeApp();
 
